@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+
+.container {
+	max-width: 1440px;
+	width: 85%;
+	margin: 0 auto;
+	font-family: 'Inter', sans-serif;
+}
+@theme {
+	--color-midnight: #0e041d;
+	--color-main: #5a00db;
+}
+.shadow-cos {
+	box-shadow: 50px 10px 100px 100px #5a00db;
+	/* box-shadow: #5a00db 0px 54px 55px, #5a00db 0px -12px 30px, #5a00db 0px 4px 6px,
+		#5a00db 0px 12px 13px, #5a00db 0px -3px 5px; */
+}
+
+.s-shadow {
+	box-shadow: 100px 100px 500px 60px #5a00db;
+}
+.s-shadows {
+	box-shadow: 100px 1px 1000px 50px #5a00db;
+}
