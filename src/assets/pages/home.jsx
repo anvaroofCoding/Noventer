@@ -37,13 +37,17 @@ const Home = () => {
 								dasturlarni tayyorlaymiz
 							</span>
 						</h1>
-						<button
-							data-aos='fade-up'
-							data-aos-anchor-placement='top-bottom'
-							className='bg-main mt-[30px] w-[167px] rounded-[12px] font-semibold text-white h-[47px] duration-300 hover:bg-white hover:text-main'
-						>
-							Xizmatlar haqida
-						</button>
+						<a href='#service' className='duration-500'>
+							{/* <Link to={''}> */}
+							<button
+								data-aos='fade-up'
+								data-aos-anchor-placement='top-bottom'
+								className='bg-main mt-[30px] w-[167px] rounded-[12px] font-semibold text-white h-[47px] duration-300 hover:bg-white hover:text-main'
+							>
+								Xizmatlar haqida
+							</button>
+							{/* </Link> */}
+						</a>
 					</div>
 				</div>
 				<div className='lg:w-full w-[70%]  lg:h-[20%] h-[25%] relative z-[100] grid grid-cols-2 lg:grid-cols-4 gap-[20px]'>

@@ -1,9 +1,13 @@
-import React from 'react'
+import Aos from 'aos'
+import React, { useEffect } from 'react'
 import section1 from '../images/png/section1.png'
 import section2 from '../images/png/section2.png'
 import section3 from '../images/png/section3.png'
 
 const About = () => {
+	useEffect(() => {
+		Aos.init({ duration: 1000 })
+	}, [])
 	return (
 		<div className=''>
 			<div className='w-full bg-main'>
@@ -15,7 +19,11 @@ const About = () => {
 			<div className='container min-h-[1000px] md:min-h-[650px] lg:min-h-[800px] relative'>
 				<div className='cards grid grid-cols-1 md:grid-cols-3 gap-[70px] md:gap-[30px] lg:gap-[70px] mt-[50px]'>
 					{/* birinchi elemnt */}
-					<div className='border border-white/30 bg-white/10 h-[580px] md:h-[360px] lg:h-[580px] rounded-lg overflow-hidden  lg:hover:-translate-y-5 duration-200 hover:bg-white/20 relative z-50'>
+					<div
+						data-aos='fade-up'
+						data-aos-anchor-placement='top-bottom'
+						className='border border-white/30 bg-white/10 h-[580px] md:h-[360px] lg:h-[580px] rounded-lg overflow-hidden  lg:hover:-translate-y-5 duration-200 hover:bg-white/20 relative z-50'
+					>
 						<img src={section1} alt='var2' className='w-full' />
 						<div className=' px-[28px] pr-[50px] md:px-[20px] lg:pr-[135px] mt-[20px] '>
 							<h2 className='text-[24px] md:text-[15px] lg:text-[24px] font-[600] text-white'>
@@ -29,7 +37,11 @@ const About = () => {
 					</div>
 
 					{/* ikkinchi elemtn */}
-					<div className='border border-white/30 bg-white/10 h-[580px] md:h-[360px] lg:h-[580px] rounded-lg overflow-hidden  lg:hover:-translate-y-5 duration-200 hover:bg-white/20 relative z-50'>
+					<div
+						data-aos='fade-up'
+						data-aos-anchor-placement='top-bottom'
+						className='border border-white/30 bg-white/10 h-[580px] md:h-[360px] lg:h-[580px] rounded-lg overflow-hidden  lg:hover:-translate-y-5 duration-200 hover:bg-white/20 relative z-50'
+					>
 						<img src={section2} alt='var2' className='w-full' />
 						<div className=' px-[28px] pr-[50px] md:px-[20px] lg:pr-[135px] mt-[20px] '>
 							<h2 className='text-[24px] md:text-[15px] lg:text-[24px] font-[600] text-white'>
@@ -43,7 +55,11 @@ const About = () => {
 					</div>
 
 					{/* uchinchi elemtn */}
-					<div className='border border-white/30 bg-white/10 h-[580px] md:h-[360px] lg:h-[580px] rounded-lg overflow-hidden  lg:hover:-translate-y-5 duration-200 hover:bg-white/20 relative z-50'>
+					<div
+						data-aos='fade-up'
+						data-aos-anchor-placement='top-bottom'
+						className='border border-white/30 bg-white/10 h-[580px] md:h-[360px] lg:h-[580px] rounded-lg overflow-hidden  lg:hover:-translate-y-5 duration-200 hover:bg-white/20 relative z-50'
+					>
 						<img src={section3} alt='var2' className='w-full' />
 						<div className=' px-[28px] pr-[50px] md:px-[20px] lg:pr-[100px] mt-[20px] '>
 							<h2 className='text-[24px] md:text-[15px] lg:text-[24px] font-[600] text-white'>
@@ -59,7 +75,11 @@ const About = () => {
 
 				{/* paski text */}
 				<div className='lg:mt-[100px] md:mt-[50px] mt-[30px]'>
-					<p className='text-white text-[18px] text-center md:text-start relative z-50'>
+					<p
+						data-aos='fade-up'
+						data-aos-anchor-placement='top-bottom'
+						className='text-white text-[18px] text-center md:text-start relative z-50'
+					>
 						Bu yerda esa yana ko’proq ma’lumotlar berilishi kerak. Lorem
 						Ipsum is simply dummy text of the printing and typesetting industry.
 						Lorem Ipsum has been the industry's standard dummy text ever since

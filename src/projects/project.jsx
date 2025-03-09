@@ -7,13 +7,21 @@ const Project = () => {
 	return (
 		<div className='mt-[100px]'>
 			<div className='container min-h-[1540px] relative'>
-				<div className='Project-title text-center'>
+				<div
+					data-aos='fade-up'
+					data-aos-anchor-placement='top-bottom'
+					className='Project-title text-center'
+				>
 					<h2 className='text-white text-[48px] font-[700]'>Loyihalarimiz</h2>
 					<h3 className='text-[18px] text-white'>biz haqimizda gapirsin !</h3>
 				</div>
 
 				{/* Birinchi kontent */}
-				<div className='projects-elements flex flex-col mt-[50px] '>
+				<div
+					data-aos='fade-up'
+					data-aos-anchor-placement='top-bottom'
+					className='projects-elements flex flex-col mt-[50px] '
+				>
 					<div className='w-full h-[1000px] lg:h-[363px]  grid lg:grid-cols-2 grid-cols-1'>
 						<div className='overflow-hidden lg:block hidden'>
 							<img src={projects1} alt='projects' className='rounded-lg' />
@@ -46,7 +54,11 @@ const Project = () => {
 				</div>
 
 				{/* Ikkinchisi kontent desktop versiya */}
-				<div className='projects-elements  flex-col mt-[50px]  lg:flex hidden'>
+				<div
+					data-aos='fade-up'
+					data-aos-anchor-placement='top-bottom'
+					className='projects-elements  flex-col mt-[50px]  lg:flex hidden'
+				>
 					<div className='w-full h-[500px] lg:h-[363px]   grid lg:grid-cols-2 grid-cols-1'>
 						<div className='text-white h-full flex flex-col items-end justify-center gap-3 pr-4'>
 							<h2 className='text-[24px] font-[600]'>ProRun loyihasi</h2>
@@ -75,7 +87,11 @@ const Project = () => {
 				</div>
 
 				{/* ikkinchisi va bu mobile versiya */}
-				<div className='projects-elements  flex-col mt-[50px]  lg:hidden flex'>
+				<div
+					data-aos='fade-up'
+					data-aos-anchor-placement='top-bottom'
+					className='projects-elements  flex-col mt-[50px]  lg:hidden flex'
+				>
 					<div className='w-full h-[1000px] lg:h-[363px]  grid lg:grid-cols-2 grid-cols-1'>
 						<div className='overflow-hidden lg-block hidden'>
 							<img src={projects2} alt='projects' className='rounded-lg ' />
@@ -106,7 +122,11 @@ const Project = () => {
 				</div>
 
 				{/* Uchinchi elements */}
-				<div className='projects-elements flex flex-col mt-[50px] '>
+				<div
+					data-aos='fade-up'
+					data-aos-anchor-placement='top-bottom'
+					className='projects-elements flex flex-col mt-[50px] '
+				>
 					<div className='w-full h-[1000px] lg:h-[363px]  grid grid-cols-1 lg:grid-cols-2'>
 						<div className='overflow-hidden lg:block hidden'>
 							<img src={projects3} alt='projects' className='rounded-lg' />
@@ -137,7 +157,11 @@ const Project = () => {
 				</div>
 
 				{/* button */}
-				<div className='w-full h-[100px] mt-[70px] flex justify-center items-start'>
+				<div
+					data-aos='fade-up'
+					data-aos-anchor-placement='top-bottom'
+					className='w-full h-[100px] mt-[70px] flex justify-center items-start'
+				>
 					<button className='w-[233px] h-[47px] bg-main text-white font-bold rounded-md duration-300 hover:bg-white hover:text-main'>
 						Boshqa loyihalarni ko’rish
 					</button>
