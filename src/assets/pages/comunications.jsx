@@ -2,7 +2,7 @@ import React from 'react'
 
 const Comunications = () => {
 	return (
-		<div className='mt-[50px] pb-[100px] '>
+		<div className=' py-[100px] bg-midnight '>
 			<div className='container min-h-[800px] border ' id='comunication'>
 				<div
 					data-aos='fade-up'
@@ -154,7 +154,10 @@ const Comunications = () => {
 							</div>
 						</div>
 					</div>
-					<div className='lg:w-[35%] w-full lg:h-full md:h-[570px]  h-full border border-white/30 bg-white/10 rounded-2xl flex justify-center flex-col items-center text-center gap-[20px]'>
+					<div
+						id='aloqa'
+						className='lg:w-[35%] w-full lg:h-full md:h-[570px]  h-full border border-white/30 bg-white/10 rounded-2xl flex justify-center flex-col items-center text-center gap-[20px]'
+					>
 						<div data-aos='fade-up' data-aos-anchor-placement='top-bottom'>
 							<h2 className='text-white text-[30px] font-bold'>
 								Bizning jamoa haqida{' '}

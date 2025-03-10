@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import projects1 from '../assets/images/png/projects1.png'
 import projects2 from '../assets/images/png/projects2.png'
 import projects3 from '../assets/images/png/projects3.png'
@@ -6,7 +7,7 @@ import projects3 from '../assets/images/png/projects3.png'
 const Project = () => {
 	return (
 		<div className='mt-[100px]'>
-			<div className='container min-h-[1540px] relative'>
+			<div className='container min-h-[1540px] relative ' id='loyha'>
 				<div
 					data-aos='fade-up'
 					data-aos-anchor-placement='top-bottom'
@@ -46,9 +47,11 @@ const Project = () => {
 								ko‘rishingiz va o‘zingiz uchun oldindan buyurtma qilishingiz
 								mumkin.
 							</p>
-							<button className='w-[153px] h-[47px] borderRed border border-white/30 bg-white/20 rounded-lg hover:bg-white hover:text-main duration-300 font-bold text-white'>
-								Loyihani Ko'rish
-							</button>
+							<Link to={'/tourmad'}>
+								<button className='w-[153px] h-[47px] borderRed border border-white/30 bg-white/20 rounded-lg hover:bg-white hover:text-main duration-300 font-bold text-white'>
+									Loyihani Ko'rish
+								</button>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -71,14 +74,16 @@ const Project = () => {
 								boshqa qatnashchilarga ro‘yxatdan o‘tishni oson qilish uchun
 								yangi web ilova ishlab chiqildi.
 							</p>
-							<button
-								className='w-[153px]
+							<Link to={'/protun'}>
+								<button
+									className='w-[153px]
 								 h-[47px] 
 								 borderRed border border-white/30 bg-white/20 rounded-lg
 							 hover:bg-white hover:text-main duration-300 font-bold text-white'
-							>
-								Loyihani Ko'rish
-							</button>
+								>
+									Loyihani Ko'rish
+								</button>
+							</Link>
 						</div>
 						<div className='overflow-hidden  w-full h-full flex justify-end'>
 							<img src={projects2} alt='projects' className='rounded-lg' />
@@ -114,9 +119,16 @@ const Project = () => {
 								boshqa qatnashchilarga ro‘yxatdan o‘tishni oson qilish uchun
 								yangi web ilova ishlab chiqildi.
 							</p>
-							<button className='w-[153px] h-[47px] borderRed border border-white/30 bg-white/20 rounded-lg hover:bg-white hover:text-main duration-300 font-bold text-white'>
-								Loyihani Ko'rish
-							</button>
+							<Link to={'/protun'}>
+								<button
+									className='w-[153px]
+								 h-[47px] 
+								 borderRed border border-white/30 bg-white/20 rounded-lg
+							 hover:bg-white hover:text-main duration-300 font-bold text-white'
+								>
+									Loyihani Ko'rish
+								</button>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -162,9 +174,11 @@ const Project = () => {
 					data-aos-anchor-placement='top-bottom'
 					className='w-full h-[100px] mt-[70px] flex justify-center items-start'
 				>
-					<button className='w-[233px] h-[47px] bg-main text-white font-bold rounded-md duration-300 hover:bg-white hover:text-main'>
-						Boshqa loyihalarni ko’rish
-					</button>
+					<Link to={'/portfolio'}>
+						<button className='w-[233px] h-[47px] bg-main text-white font-bold rounded-md duration-300 hover:bg-white hover:text-main'>
+							Boshqa loyihalarni ko’rish
+						</button>
+					</Link>
 				</div>
 
 				{/* nur */}

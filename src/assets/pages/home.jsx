@@ -7,7 +7,6 @@ import vector3 from '../images/icons/v3.svg'
 import vector4 from '../images/icons/v4.svg'
 import headers from '../images/png/header.png'
 import About from './about'
-import Comunications from './comunications'
 
 const Home = () => {
 	return (
@@ -123,6 +122,8 @@ const Home = () => {
 					</div>
 				</div>
 				<img
+					// data-aos='fade-up'
+					data-aos-anchor-placement='bottom'
 					src={headers}
 					alt='headers'
 					className='absolute bottom-0 right-0 lg:right-[-100px] z-50 w-full lg:w-[1000px]'
@@ -137,7 +138,6 @@ const Home = () => {
 			<About />
 			<Project />
 			<Service />
-			<Comunications />
 		</div>
 	)
 }

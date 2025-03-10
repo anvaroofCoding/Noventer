@@ -11,6 +11,7 @@
 @theme {
 	--color-midnight: #0e041d;
 	--color-main: #5a00db;
+	--bg-image-tourmad: '../src/assets/images/png/projects1.png';
 }
 .shadow-cos {
 	box-shadow: 50px 10px 100px 100px #5a00db;
