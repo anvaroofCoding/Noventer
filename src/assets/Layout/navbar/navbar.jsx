@@ -262,24 +262,33 @@ const Navbar = () => {
 			</div>
 
 			{/* Drawer modal */}
-			<Drawer title='Menu' onClose={onClose} open={isOpen}>
+			<Drawer
+				title='Menu'
+				style={{
+					background: 'black',
+					color: 'white',
+				}}
+				closeIcon={<span style={{ color: 'white', fontSize: '20px' }}>✖</span>}
+				onClose={onClose}
+				open={isOpen}
+			>
 				<ul>
-					<li className='text-main font-bold'>
+					<li className=' font-bold'>
 						<Link to={'/'} onClick={onClose}>
 							Bosh Sahifa
 						</Link>
 					</li>
-					<li className='text-main font-bold'>
+					<li className=' font-bold'>
 						<Link to={'/portfolio'} onClick={onClose}>
 							Portfolio
 						</Link>
 					</li>
-					<li className='text-main font-bold'>
+					<li className=' font-bold'>
 						<Link to={'/xizmatlar'} onClick={onClose}>
 							Xizmatlar
 						</Link>
 					</li>
-					<li className='text-main font-bold'>
+					<li className=' font-bold'>
 						<a href='#aloqa' onClick={onClose}>
 							Aloqa
 						</a>
